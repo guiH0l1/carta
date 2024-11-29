@@ -29,11 +29,11 @@ function sortear() {
       // renderizar o centro da carta
       let cc = document.getElementById('centroCarta')
       if (facesSorteado === 'J') {
-          cc.innerHTML = `<img src="/img/valete.png">`
+          cc.innerHTML = `<img src="img/valete.png">`
       } else if (facesSorteado === 'Q') {
-          cc.innerHTML = `<img src="/img/dama.png">`
+          cc.innerHTML = `<img src="img/dama.png">`
       } else if (facesSorteado === 'K') {
-          cc.innerHTML = `<img src="/img/rei.png">`
+          cc.innerHTML = `<img src="img/rei.png">`
       } else {
           cc.innerHTML = `${nipeSorteado}`
           cc.style.color = cor
